@@ -1,0 +1,252 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+/* start nav bar  */
+.nav-bar {
+    background-color: #ffffff;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 0px 15px -2px black;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.nav-bar .logo a {
+    text-decoration: none;
+    text-transform: capitalize;
+    color: black;
+}
+
+.nav-bar .logo a span {
+    color: orangered
+}
+
+.nav-bar .links {
+    position: relative
+}
+
+.nav-bar .links .icon {
+    display: none;
+}
+
+.nav-bar .links ul {
+    display: flex;
+    list-style: none;
+    gap: 25px;
+
+}
+
+.nav-bar .links ul a {
+    text-decoration: none;
+    text-transform: capitalize;
+    display: block;
+    transition: 0.5s;
+    color: black;
+}
+
+.nav-bar .links ul a:hover {
+    color: orangered;
+}
+
+.nav-bar .icon-bar {
+    display: flex;
+    gap: 25px;
+}
+.nav-bar .icon-bar a{
+    text-decoration: none;
+}
+
+.nav-bar .icon-bar i {
+    font-size: 19px;
+    transition: 0.3s;
+    color: black;
+}
+
+
+.nav-bar .icon-bar i:hover {
+    color: orangered;
+}
+
+/* end nav bar  */
+/* start container-1  */
+.container-1{
+    padding: 70px;
+    background-color: #23e7cd63;
+}
+.container-1 h1:first-child{
+    font-size: 50px;
+    font-weight: 800;
+    text-transform: capitalize;
+    word-spacing: 2px;
+    margin-bottom: 30px;
+    color: orangered
+}
+.container-1 h1:nth-child(2){
+    font-size: 50px;
+    font-weight: 800;
+    text-transform: capitalize;
+    word-spacing: 2px;
+}
+/* end container-1  */
+/* start container-2  */
+.container-2{
+    width: 65%;
+    margin: 0 auto;
+
+}
+.container-2 h1{
+    font-size: 40px;
+    font-weight: 800;
+    text-transform: capitalize;
+    margin-bottom: 40px;
+}
+.container-2 .main-title{
+    width: 80%;
+    height: 385px;
+    
+}
+.container-2 .main-title .title{
+    position: relative;
+    margin-bottom: 40px
+}
+
+.container-2 .main-title .title .js{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.container-2 .main-title .title .js h2{
+    text-transform: capitalize;
+    word-spacing: 1px;
+    font-weight: 800;
+}
+.container-2 .main-title .title .js i{
+    transition: 0.5s
+}
+.container-2 .main-title .title:hover i{
+    transform:rotate(180deg)
+}
+.container-2 .main-title .title .explain{
+    position: relative;
+    top: 15px;
+    display: none;
+    background-color: #8a8a8ad8;
+    border-radius: 5px;
+    padding: 5px;
+    font-weight: bold;
+    z-index: 1;
+}
+.container-2 .main-title .title .explain p{
+    color: white;
+    text-transform: capitalize;
+}
+.container-2 .main-title .title .explain::before{
+    content: "";
+    position: absolute;
+    top: -30px;
+    /* right: 0; */
+    left: 5px;
+    border-width: 15px;
+    border-style: solid;
+    border-color: #ffff0000 #0000ff00 #8a8a8ad8;
+    
+
+}
+.container-2 .main-title .title:hover .explain{
+    display: block;
+}
+/* end container-2  */
+/* start container-3  */
+.container-5{
+    background-color: black;
+    color: white;
+    min-height: 300px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding-top: 60px;
+    gap: 30px;
+}
+.container-5 div{
+    width: 330px;
+    
+}
+.container-5 .one-5{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+  
+}
+.container-5 .one-5 h2, h3, p{
+    text-transform: capitalize;
+    color:#acadad
+}
+.container-5 .two-5{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    color:#acadad;
+   
+}
+.container-5 .two-5 .links-5{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px
+}
+.container-5 .two-5 .links-5 a{
+    text-decoration: none;
+    color:#acadad;
+    transition: all 0.5s;
+}
+.container-5 .two-5 .links-5 a:hover{
+    color: orangered
+}
+.container-5 .three-5{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    color:#acadad;
+    
+}
+.container-5 .three-5 .apps{
+    display: flex;
+    gap: 20px;
+    
+}
+.container-5 .three-5 .apps a{
+    text-decoration: none;
+    color: #acadad
+}
+.container-5 .three-5 .apps a i{
+    font-size: 20px;
+    transition: all 0.5s;
+    animation: apps 0.5s infinite alternate;
+   
+
+}
+.container-5 .three-5 .apps i:hover{
+    color:orangered;
+    
+}
+@keyframes apps{
+    to{
+        font-size: 23px;
+    }
+}
+.container-5 .three-5 .apps i:nth-child(2){
+    animation-delay: 0.2s
+
+}
+.container-5 .three-5 .apps i:nth-child(3){
+    animation-delay: 0.4s
+
+}
+
+/* end container-3  */

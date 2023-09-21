@@ -1,0 +1,416 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+/* start nav bar  */
+.nav-bar {
+    background-color: #ffffff;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 0px 15px -2px black;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.nav-bar .logo a {
+    text-decoration: none;
+    text-transform: capitalize;
+    color: black;
+}
+
+.nav-bar .logo a span {
+    color: orangered
+}
+
+.nav-bar .links {
+    position: relative
+}
+
+.nav-bar .links .icon {
+    display: none;
+}
+
+.nav-bar .links ul {
+    display: flex;
+    list-style: none;
+    gap: 25px;
+
+}
+
+.nav-bar .links ul a {
+    text-decoration: none;
+    text-transform: capitalize;
+    display: block;
+    transition: 0.5s;
+    color: black;
+}
+
+.nav-bar .links ul a:hover {
+    color: orangered;
+}
+
+.nav-bar .icon-bar {
+    display: flex;
+    gap: 25px;
+}
+.nav-bar .icon-bar a{
+    text-decoration: none;
+}
+
+.nav-bar .icon-bar i {
+    font-size: 19px;
+    transition: 0.3s;
+    color: black;
+}
+
+.nav-bar .icon-bar i:hover {
+    color: orangered;
+}
+
+/* end nav bar  */
+/* start container-1  */
+.container-1 .main-img {
+    background-image: linear-gradient(to right, #39382e52 20%, transparent), url(../images/slideshow/team-meeting-renewable-energy-project.jpeg);
+    background-size: cover;
+    background-position: top;
+    min-height: 400px;
+    padding-top: 110px;
+    padding-left: 60px;
+}
+
+.container-1 .main-img .title-1 {
+    color: white;
+}
+
+.container-1 .main-img .title-1 h1 {
+    text-transform: capitalize;
+    word-spacing: 2px;
+    font-size: 40px;
+    margin-bottom: 25px;
+}
+
+.container-1 .main-img .title-1 p {
+    font-size: 15px;
+    width: 50%;
+    color: #acadad;
+    margin-bottom: 25px;
+}
+
+.container-1 .main-img .title-1 button {
+    outline: none;
+    border: none;
+    background-color: black;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 8px 20px;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+
+.container-1 .main-img .title-1 button:hover {
+    background-color: orangered;
+}
+
+/* end container-1  */
+/* start container-2  */
+.container-2 {
+    padding: 20px;
+    text-align: center;
+}
+
+.container-2 h1 {
+    text-transform: capitalize;
+    word-spacing: 2px;
+}
+
+.container-2 h1 span {
+    color: orangered;
+}
+
+.container-2 .design {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px
+}
+
+.container-2 .design .part-1 {
+    align-self: flex-end;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.container-2 .design .part-1 p {
+    border-left: 1px solid #5a5a5a;
+    padding-left: 10px;
+    transition: 0.5s;
+    color: #5a5a5a
+}
+
+.container-2 .design .part-1 p:hover {
+    color: orangered;
+    border-left: 1px solid orangered;
+}
+
+.container-2 .design .img-design {
+    width: 35%;
+    border-radius: 10px;
+}
+
+.container-2 .design .text-2 {
+    width: 30%;
+    text-align: left;
+}
+
+.container-2 .design .text-2 h2 {
+    text-transform: capitalize;
+
+}
+
+.container-2 .design .text-2 h2 span {
+    color: orangered
+}
+
+.container-2 .design .text-2 p {
+    color: #535353;
+    text-transform: capitalize;
+}
+
+.container-2 .design .text-2 .p-1 {
+    margin-bottom: 20px;
+}
+
+.container-2 .design .text-2 button {
+    outline: none;
+    border: none;
+    background-color: black;
+    text-transform: capitalize;
+    font-weight: bold;
+    padding: 8px 25px;
+    border-radius: 15px;
+    transition: all 0.4s;
+    color: white;
+    margin-top: 20px;
+}
+
+.container-2 .design .text-2 button:hover {
+    background-color: transparent;
+    color: orangered;
+    border: 1px solid orangered;
+}
+
+/* end container-2  */
+/* start container-3  */
+.container-3 {
+    display: flex
+}
+
+.container-3 .retail-img {
+    width: 40%;
+}
+
+.container-3 .retail-text {
+    background-color: #bebebe;
+    padding: 50px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+}
+
+.container-3 .retail-text h1 {
+    text-transform: capitalize;
+    font-size: 40px;
+}
+
+.container-3 .retail-text h1 span {
+    color: orangered
+}
+
+.container-3 .retail-text p {
+    text-transform: capitalize;
+    color: #4f4f4f
+}
+
+.container-3 .retail-text button {
+    outline: none;
+    border: none;
+    background-color: black;
+    text-transform: capitalize;
+    font-weight: bold;
+    padding: 8px 25px;
+    border-radius: 15px;
+    transition: all 0.4s;
+    color: white;
+    margin-top: 20px;
+    width: 50%;
+}
+
+.container-3 .retail-text button:hover {
+    background-color: transparent;
+    color: orangered;
+    border: 1px solid orangered;
+}
+
+
+/* end container-3  */
+/* start container-4  */
+.container-4{
+    padding: 20px;
+}
+.container-4 h1{
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 51px;
+
+}
+.container-4 .products{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    perspective: 300px;
+    perspective-origin: center center;
+}
+.container-4 .products  div{
+    height: 320px;
+    width: 330px;
+    display: flex;
+    justify-content: space-between;
+    transition: 0.3s;
+    border-radius: 10px;
+    position: relative;
+    padding: 15px;
+}
+.container-4 .products div:hover{
+    transform:translateZ(10px);
+    box-shadow: 0px 0px 14px -2px black;
+}
+.container-4 .products .tree{
+    background-image: url(../images/product/evan-mcdougall-qnh1odlqOmk-unsplash.jpeg);
+    background-size: cover;
+}
+.container-4 .products .fashion{
+    background-image: url(../images/product/jordan-nix-CkCUvwMXAac-unsplash.jpeg);
+    background-size: cover;
+}
+.container-4 .products .juice{
+    background-image: url(../images/product/nature-zen-3Dn1BZZv3m8-unsplash.jpeg);
+    background-size: cover;
+
+}
+.container-4 .products .juice span{
+    height: 0;
+}
+.container-4 .products div span{
+    background-color: #fff;
+    height: 20px;
+    width: fit-content;
+    padding: 0 8px;
+}
+.container-4 .products div i{
+    transition: 0.3s;
+}
+.container-4 .products div i:hover{
+    color: red;
+}
+
+
+/* end container-4  */
+/* start container-5  */
+.container-5{
+    background-color: black;
+    color: white;
+    min-height: 300px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding-top: 60px;
+}
+.container-5 div{
+    width: 330px;
+    
+}
+.container-5 .one-5{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+  
+}
+.container-5 .one-5 h2, h3, p{
+    text-transform: capitalize;
+    color:#acadad
+}
+.container-5 .two-5{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    color:#acadad;
+   
+}
+.container-5 .two-5 .links-5{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px
+}
+.container-5 .two-5 .links-5 a{
+    text-decoration: none;
+    color:#acadad;
+    transition: all 0.5s;
+}
+.container-5 .two-5 .links-5 a:hover{
+    color: orangered
+}
+.container-5 .three-5{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    color:#acadad;
+    
+}
+.container-5 .three-5 .apps{
+    display: flex;
+    gap: 20px;
+    
+}
+.container-5 .three-5 .apps a{
+    text-decoration: none;
+    color: #acadad
+}
+.container-5 .three-5 .apps a i{
+    font-size: 20px;
+    transition: all 0.5s;
+    animation: apps 0.5s infinite alternate;
+   
+
+}
+.container-5 .three-5 .apps i:hover{
+    color:orangered;
+    
+}
+@keyframes apps{
+    to{
+        font-size: 23px;
+    }
+}
+.container-5 .three-5 .apps i:nth-child(2){
+    animation-delay: 0.2s
+
+}
+.container-5 .three-5 .apps i:nth-child(3){
+    animation-delay: 0.4s
+
+}
+
+/* end container-5  */

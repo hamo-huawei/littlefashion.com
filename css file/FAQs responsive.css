@@ -1,0 +1,317 @@
+@media screen and (max-width: 425px) {
+
+    /* start nav bar  */
+    /* nav one  */
+    .one {
+        display: none;
+    }
+
+    /* nav one  */
+    .nav-bar .logo {
+        font-size: 20px
+    }
+
+    .nav-bar .links {
+        position: relative
+    }
+
+    .nav-bar .links .icon {
+        width: 30px;
+        height: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        direction: rtl;
+    }
+
+    .nav-bar .links .icon div {
+        background-color: orangered;
+        height: 3px
+    }
+
+    .nav-bar .links .icon div:first-child {
+        width: 100%;
+    }
+
+    .nav-bar .links .icon div:nth-child(2) {
+        width: 50%;
+        transition: 0.4s
+    }
+
+    .nav-bar .links .icon div:nth-child(3) {
+        width: 100%;
+    }
+
+    .nav-bar .links:hover .icon div:nth-child(2) {
+        width: 100%;
+    }
+
+    .nav-bar .links ul {
+        list-style: none;
+        position: absolute;
+        right: 0;
+        top: 30px;
+        background-color: #eee;
+        width: 250px;
+        display: none;
+        border-radius: 10px;
+    }
+
+    .nav-bar .links ul::before {
+        content: "";
+        border-width: 10px;
+        border-style: solid;
+        border-color: #ff000000 #0000ff00 #eee transparent;
+        position: absolute;
+        top: -20px;
+        right: 8px;
+    }
+
+    .nav-bar .links:hover ul {
+        display: block;
+    }
+
+    .nav-bar .links ul a {
+        text-decoration: none;
+        text-transform: capitalize;
+        color: black;
+        padding: 10px;
+        display: block;
+        transition: 0.5s;
+    }
+
+    .nav-bar .links ul a:hover {
+        padding-left: 80px;
+        text-decoration: underline;
+        color: orangered
+    }
+
+    .nav-bar .icon-bar {
+        display: flex;
+        gap: 10px;
+    }
+
+    .nav-bar .icon-bar a {
+        text-decoration: none;
+    }
+
+    .nav-bar .icon-bar i {
+        font-size: 15px;
+        transition: 0.3s;
+    }
+
+
+    .nav-bar .icon-bar i:hover {
+        color: orangered;
+    }
+
+    /* end nav bar  */
+    /* start container-1  */
+    .container-1 {
+        padding: 15px;
+    }
+
+    .container-1 h1:first-child {
+        font-size: 32px;
+    }
+
+    .container-1 h1:nth-child(2) {
+        font-size: 32px;
+    }
+
+    /* end container-1  */
+    /* start container-2  */
+    .container-2 {
+        width: 95%;
+    }
+
+    .container-2 .main-title {
+        width: 95%;
+        height: 395px;
+    }
+
+    /* end container-2  */
+    /* start container-3  */
+    .container-5 {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .container-5 div {
+        width: 100%;
+        height: 120px;
+    }
+
+    .container-5 .one-5 {
+        gap: 10px;
+    }
+
+    .container-5 .two-5 {
+        gap: 15px;
+    }
+
+    .container-5 .two-5 .links-5 {
+        gap: 15px;
+    }
+
+    .container-5 .three-5 {
+        gap: 15px;
+    }
+
+    /* end container-3  */
+}
+
+@media screen and (min-width: 426px) and (max-width: 767px) {
+    .one {
+        display: none;
+    }
+
+    /* nav one  */
+    .one {
+        display: none;
+    }
+
+    /* nav one  */
+    .nav-bar .logo {
+        font-size: 20px
+    }
+
+    .nav-bar .links {
+        position: relative
+    }
+
+    .nav-bar .links .icon {
+        width: 30px;
+        height: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        direction: rtl;
+    }
+
+    .nav-bar .links .icon div {
+        background-color: orangered;
+        height: 3px
+    }
+
+    .nav-bar .links .icon div:first-child {
+        width: 100%;
+    }
+
+    .nav-bar .links .icon div:nth-child(2) {
+        width: 50%;
+        transition: 0.4s
+    }
+
+    .nav-bar .links .icon div:nth-child(3) {
+        width: 100%;
+    }
+
+    .nav-bar .links:hover .icon div:nth-child(2) {
+        width: 100%;
+    }
+
+    .nav-bar .links ul {
+        list-style: none;
+        position: absolute;
+        right: 0;
+        top: 30px;
+        background-color: #eee;
+        width: 250px;
+        display: none;
+        border-radius: 10px;
+    }
+
+    .nav-bar .links ul::before {
+        content: "";
+        border-width: 10px;
+        border-style: solid;
+        border-color: #ff000000 #0000ff00 #eee transparent;
+        position: absolute;
+        top: -20px;
+        right: 8px;
+    }
+
+    .nav-bar .links:hover ul {
+        display: block;
+    }
+
+    .nav-bar .links ul a {
+        text-decoration: none;
+        text-transform: capitalize;
+        color: black;
+        padding: 20px;
+        display: block;
+        transition: 0.5s;
+    }
+
+    .nav-bar .links ul a:hover {
+        padding-left: 80px;
+        text-decoration: underline;
+        color: orangered
+    }
+
+    .nav-bar .icon-bar {
+        display: flex;
+        gap: 10px;
+    }
+
+    .nav-bar .icon-bar i {
+        font-size: 15px;
+        transition: 0.3s
+    }
+
+    .nav-bar .icon-bar i:hover {
+        color: orangered;
+    }
+
+    /* end nav bar  */
+    /* start container-1  */
+    .container-1 {
+        padding: 30px;
+    }
+
+    .container-1 h1:first-child {
+        font-size: 40px;
+    }
+
+    .container-1 h1:nth-child(2) {
+        font-size: 40px;
+    }
+
+    /* end container-1  */
+    /* start container-3  */
+    .container-5 div {
+        width: 100%;
+    }
+
+    /* end container-3  */
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+
+    /* nav two  */
+    .two {
+        display: none;
+    }
+
+    /* nav two  */
+
+    /* start container-3  */
+    .container-5 div {
+        width: 100%;
+    }
+
+    .container-5 .two-5 .links-5 {
+        gap: 10px;
+        flex-direction: column;
+    }
+
+    /* end container-3  */
+}
+
+@media screen and (min-width: 993px) {
+    .two {
+        display: none;
+    }
+
+
+}
